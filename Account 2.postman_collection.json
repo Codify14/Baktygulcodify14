@@ -1,0 +1,206 @@
+{
+	"info": {
+		"_postman_id": "cb6a08f5-1ba1-4476-9331-7b845e0ef3ad",
+		"name": "Account 2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27792081"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userName\": \"Zarina87\",\r\n  \"password\": \"Straw568#$%\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://demoqa.com/Account/v1/User",
+					"protocol": "https",
+					"host": [
+						"demoqa",
+						"com"
+					],
+					"path": [
+						"Account",
+						"v1",
+						"User"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic WmFyaW5hODc6U3RyYXc1NjgjJCU='",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://demoqa.com/Account/v1/User/395adcf5-4fa7-4579-a446-daaf4eb31a97",
+					"protocol": "https",
+					"host": [
+						"demoqa",
+						"com"
+					],
+					"path": [
+						"Account",
+						"v1",
+						"User",
+						"395adcf5-4fa7-4579-a446-daaf4eb31a97"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic WmFyaW5hODc6U3RyYXc1NjgjJCU='",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://demoqa.com/Account/v1/User/395adcf5-4fa7-4579-a446-daaf4eb31a97",
+					"protocol": "https",
+					"host": [
+						"demoqa",
+						"com"
+					],
+					"path": [
+						"Account",
+						"v1",
+						"User",
+						"395adcf5-4fa7-4579-a446-daaf4eb31a97"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://demoqa.com/BookStore/v1/Books",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic WmFyaW5hODc6U3RyYXc1NjgjJCU='",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userId\": \"395adcf5-4fa7-4579-a446-daaf4eb31a97\",\r\n  \"collectionOfIsbns\": [\r\n    {\r\n      \"isbn\": \"9781449331818\"\r\n    }\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://demoqa.com/BookStore/v1/Books",
+					"protocol": "https",
+					"host": [
+						"demoqa",
+						"com"
+					],
+					"path": [
+						"BookStore",
+						"v1",
+						"Books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic WmFyaW5hODc6U3RyYXc1NjgjJCU='",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userId\": \"395adcf5-4fa7-4579-a446-daaf4eb31a97\",\r\n  \"isbn\": \"9781449325862\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://demoqa.com/BookStore/v1/Books/9781449331818",
+					"protocol": "https",
+					"host": [
+						"demoqa",
+						"com"
+					],
+					"path": [
+						"BookStore",
+						"v1",
+						"Books",
+						"9781449331818"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Account/v1/User/395adcf5-4fa7-4579-a446-daaf4eb31a97",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic WmFyaW5hODc6U3RyYXc1NjgjJCU='",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://demoqa.com/Account/v1/User/395adcf5-4fa7-4579-a446-daaf4eb31a97",
+					"protocol": "https",
+					"host": [
+						"demoqa",
+						"com"
+					],
+					"path": [
+						"Account",
+						"v1",
+						"User",
+						"395adcf5-4fa7-4579-a446-daaf4eb31a97"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
